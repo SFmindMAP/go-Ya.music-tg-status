@@ -72,7 +72,7 @@ func worker(parent context.Context) {
 					log.Println("[worker][trackdata]", err.Error())
 					return
 				}
-				// Сейчас слушает Сектор Газа: Бомж
+				// Сейчас слушает
 				log.Println(data)
 				_, err = client.Client.API().AccountUpdateProfile(ctx, &tg.AccountUpdateProfileRequest{
 					FirstName: client.Self.FirstName,
@@ -139,7 +139,7 @@ func trackdata(trackid string) (string, error) {
 			}
 			ar += artist.Name
 		}
-		return fmt.Sprintf("Сейчас слушает %s: %s", ar, data.Result[0].Title), nil
+		return fmt.Sprintf("listening: %s - %s", ar, data.Result[0].Title), nil
 	}
 	return "", fmt.Errorf("[trackdata] something went wrong")
 }
