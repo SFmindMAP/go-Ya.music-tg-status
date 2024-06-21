@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/gotgproto-blue" alt="gotgproto">
   <img src="https://img.shields.io/badge/Go-blue" alt="Go">
   <img src="https://img.shields.io/badge/Sqlite-blue" alt="Sqlite">
-  <img src="https://img.shields.io/badge/License-GPL%20v3-blue" alt="License">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
   <img src="https://img.shields.io/badge/Fork-blue" alt="Fork">
 </div>
 
