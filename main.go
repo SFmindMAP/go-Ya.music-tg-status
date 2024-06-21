@@ -17,8 +17,8 @@ import (
 	"github.com/gotd/td/tg"
 )
 
-const phone = "+79991234567"
-const YM_token = "y0_abcdef"
+const phone = ""
+const YM_token = ""
 
 func worker(parent context.Context) {
 	var trackid string
