@@ -1,5 +1,5 @@
 <h1 align="center">🎧 Yandex music Telegram bio status (go)</h1>
-<p align="center"><i>Userbot for telegram shows songs currently playing on yandex music in the bio on your profile</i></p>
+<p align="center"><i>Userbot for telegram shows songs currently playing on yandex music in the bio on your profile (for new ya.music version)</i></p>
 <div align="center">
   <img src="https://img.shields.io/badge/Ynison-blue" alt="Ynison">
   <img src="https://img.shields.io/badge/gotgproto-blue" alt="gotgproto">
